@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A16457BE223DC3AB00A00D1A /* CouponCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16457BD223DC3AB00A00D1A /* CouponCollectionViewController.swift */; };
+		A16457C6223DC7A500A00D1A /* CouponCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16457C5223DC7A500A00D1A /* CouponCollectionViewCell.swift */; };
+		A1784CCB22409846008F697D /* CouponMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1784CCA22409846008F697D /* CouponMarker.swift */; };
+		A1784CCD2240A1FD008F697D /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1784CCC2240A1FD008F697D /* Coupon.swift */; };
+		A1A3A98122419261005D0F97 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A1A3A98022419261005D0F97 /* Settings.bundle */; };
+		A1CFB74D223D648F006776AC /* CustomMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CFB74C223D648F006776AC /* CustomMarker.swift */; };
+		A216788B224186EA00E082F9 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A216788A224186EA00E082F9 /* PhotoViewController.swift */; };
+		A21678912241F9D800E082F9 /* CouponDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21678902241F9D800E082F9 /* CouponDetailViewController.swift */; };
+		A22DC8182240A8E800C7B34B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22DC8172240A8E800C7B34B /* CameraViewController.swift */; };
+		A239D8522230B95E004A8404 /* BusinessDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A239D8512230B95E004A8404 /* BusinessDetailViewController.swift */; };
+		A2F1892F222B481C00833511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F1892E222B481C00833511 /* AppDelegate.swift */; };
+		A2F18931222B481C00833511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F18930222B481C00833511 /* ViewController.swift */; };
+		A2F18934222B481C00833511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F18932222B481C00833511 /* Main.storyboard */; };
+		A2F18936222B481E00833511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F18935222B481E00833511 /* Assets.xcassets */; };
+		A2F18939222B481E00833511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F18937222B481E00833511 /* LaunchScreen.storyboard */; };
+		A2F18941222CCA7C00833511 /* YelpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F18940222CCA7C00833511 /* YelpService.swift */; };
+		A5398E0AF5AD57E8DA2F24EB /* libPods-CouponGo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AED4DFE6071973751C0A13 /* libPods-CouponGo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00C323BDE95AEB77B366C200 /* Pods-CouponGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouponGo.release.xcconfig"; path = "Target Support Files/Pods-CouponGo/Pods-CouponGo.release.xcconfig"; sourceTree = "<group>"; };
+		0F5EB8226693B391D644C647 /* Pods-CouponGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouponGo.debug.xcconfig"; path = "Target Support Files/Pods-CouponGo/Pods-CouponGo.debug.xcconfig"; sourceTree = "<group>"; };
+		11AED4DFE6071973751C0A13 /* libPods-CouponGo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CouponGo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16457BD223DC3AB00A00D1A /* CouponCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponCollectionViewController.swift; sourceTree = "<group>"; };
+		A16457C5223DC7A500A00D1A /* CouponCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponCollectionViewCell.swift; sourceTree = "<group>"; };
+		A1784CCA22409846008F697D /* CouponMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponMarker.swift; sourceTree = "<group>"; };
+		A1784CCC2240A1FD008F697D /* Coupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
+		A1A3A98022419261005D0F97 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		A1CFB74C223D648F006776AC /* CustomMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarker.swift; sourceTree = "<group>"; };
+		A216788A224186EA00E082F9 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		A21678902241F9D800E082F9 /* CouponDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponDetailViewController.swift; sourceTree = "<group>"; };
+		A22DC8172240A8E800C7B34B /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		A239D8512230B95E004A8404 /* BusinessDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailViewController.swift; sourceTree = "<group>"; };
+		A2F1892B222B481C00833511 /* CouponGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouponGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F1892E222B481C00833511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2F18930222B481C00833511 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2F18933222B481C00833511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2F18935222B481E00833511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2F18938222B481E00833511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2F1893A222B481E00833511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F18940222CCA7C00833511 /* YelpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2F18928222B481C00833511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5398E0AF5AD57E8DA2F24EB /* libPods-CouponGo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CA2CDF637D529E53C2F349F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11AED4DFE6071973751C0A13 /* libPods-CouponGo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2F18922222B481C00833511 = {
+			isa = PBXGroup;
+			children = (
+				A2F1892D222B481C00833511 /* CouponGo */,
+				A2F1892C222B481C00833511 /* Products */,
+				D38C2DF1D625559A560C6CE8 /* Pods */,
+				3CA2CDF637D529E53C2F349F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2F1892C222B481C00833511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2F1892B222B481C00833511 /* CouponGo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2F1892D222B481C00833511 /* CouponGo */ = {
+			isa = PBXGroup;
+			children = (
+				A22DC8172240A8E800C7B34B /* CameraViewController.swift */,
+				A216788A224186EA00E082F9 /* PhotoViewController.swift */,
+				A2F1892E222B481C00833511 /* AppDelegate.swift */,
+				A2F18930222B481C00833511 /* ViewController.swift */,
+				A2F18940222CCA7C00833511 /* YelpService.swift */,
+				A2F18932222B481C00833511 /* Main.storyboard */,
+				A239D8512230B95E004A8404 /* BusinessDetailViewController.swift */,
+				A2F18935222B481E00833511 /* Assets.xcassets */,
+				A2F18937222B481E00833511 /* LaunchScreen.storyboard */,
+				A2F1893A222B481E00833511 /* Info.plist */,
+				A1CFB74C223D648F006776AC /* CustomMarker.swift */,
+				A16457BD223DC3AB00A00D1A /* CouponCollectionViewController.swift */,
+				A21678902241F9D800E082F9 /* CouponDetailViewController.swift */,
+				A16457C5223DC7A500A00D1A /* CouponCollectionViewCell.swift */,
+				A1784CCA22409846008F697D /* CouponMarker.swift */,
+				A1784CCC2240A1FD008F697D /* Coupon.swift */,
+				A1A3A98022419261005D0F97 /* Settings.bundle */,
+			);
+			path = CouponGo;
+			sourceTree = "<group>";
+		};
+		D38C2DF1D625559A560C6CE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F5EB8226693B391D644C647 /* Pods-CouponGo.debug.xcconfig */,
+				00C323BDE95AEB77B366C200 /* Pods-CouponGo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2F1892A222B481C00833511 /* CouponGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F1893D222B481E00833511 /* Build configuration list for PBXNativeTarget "CouponGo" */;
+			buildPhases = (
+				8AC7C6A8743DEDACCB8CC1D3 /* [CP] Check Pods Manifest.lock */,
+				A2F18927222B481C00833511 /* Sources */,
+				A2F18928222B481C00833511 /* Frameworks */,
+				A2F18929222B481C00833511 /* Resources */,
+				8B0D570C050ADF7162DAD8BB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CouponGo;
+			productName = CouponGo;
+			productReference = A2F1892B222B481C00833511 /* CouponGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2F18923222B481C00833511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CouponGo;
+				TargetAttributes = {
+					A2F1892A222B481C00833511 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A2F18926222B481C00833511 /* Build configuration list for PBXProject "CouponGo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2F18922222B481C00833511;
+			productRefGroup = A2F1892C222B481C00833511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2F1892A222B481C00833511 /* CouponGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2F18929222B481C00833511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A3A98122419261005D0F97 /* Settings.bundle in Resources */,
+				A2F18939222B481E00833511 /* LaunchScreen.storyboard in Resources */,
+				A2F18936222B481E00833511 /* Assets.xcassets in Resources */,
+				A2F18934222B481C00833511 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AC7C6A8743DEDACCB8CC1D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CouponGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B0D570C050ADF7162DAD8BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CouponGo/Pods-CouponGo-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CouponGo/Pods-CouponGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2F18927222B481C00833511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16457C6223DC7A500A00D1A /* CouponCollectionViewCell.swift in Sources */,
+				A22DC8182240A8E800C7B34B /* CameraViewController.swift in Sources */,
+				A16457BE223DC3AB00A00D1A /* CouponCollectionViewController.swift in Sources */,
+				A2F18931222B481C00833511 /* ViewController.swift in Sources */,
+				A21678912241F9D800E082F9 /* CouponDetailViewController.swift in Sources */,
+				A216788B224186EA00E082F9 /* PhotoViewController.swift in Sources */,
+				A1784CCB22409846008F697D /* CouponMarker.swift in Sources */,
+				A1CFB74D223D648F006776AC /* CustomMarker.swift in Sources */,
+				A1784CCD2240A1FD008F697D /* Coupon.swift in Sources */,
+				A2F18941222CCA7C00833511 /* YelpService.swift in Sources */,
+				A239D8522230B95E004A8404 /* BusinessDetailViewController.swift in Sources */,
+				A2F1892F222B481C00833511 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2F18932222B481C00833511 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F18933222B481C00833511 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2F18937222B481E00833511 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2F18938222B481E00833511 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2F1893B222B481E00833511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2F1893C222B481E00833511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2F1893E222B481E00833511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5EB8226693B391D644C647 /* Pods-CouponGo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TD765DUAZK;
+				INFOPLIST_FILE = CouponGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chizhi.tieyong.com.CouponGo1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A2F1893F222B481E00833511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00C323BDE95AEB77B366C200 /* Pods-CouponGo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TD765DUAZK;
+				INFOPLIST_FILE = CouponGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chizhi.tieyong.com.CouponGo1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2F18926222B481C00833511 /* Build configuration list for PBXProject "CouponGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F1893B222B481E00833511 /* Debug */,
+				A2F1893C222B481E00833511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F1893D222B481E00833511 /* Build configuration list for PBXNativeTarget "CouponGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2F1893E222B481E00833511 /* Debug */,
+				A2F1893F222B481E00833511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2F18923222B481C00833511 /* Project object */;
+}
